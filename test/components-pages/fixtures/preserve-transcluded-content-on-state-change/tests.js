@@ -12,6 +12,6 @@ describe(path.basename(__dirname), function() {
         $button.click();
         component.update();
         
-        expect($button.innerHTML).to.eql('button label');
+        expect($button.innerHTML).to.eql('button label test');
     });
 });

@@ -309,7 +309,7 @@ function morphdom(
 
                         insertVirtualNodeBefore(curToNodeChild, curToNodeKey, curFromNodeChild, parentFromNode, componentForNode);
                         fromNextSibling = curFromNodeChild;
-                    } else if (matchingFromEl.___markoVElement) {
+                    } else {
                         if (matchingFromEl.___markoDetached !== undefined) {
                             matchingFromEl.___markoDetached = undefined;
                         }
